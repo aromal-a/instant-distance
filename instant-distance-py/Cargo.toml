@@ -12,11 +12,11 @@ readme = "../README.md"
 
 [lib]
 name = "instant_distance"
-crate-type = ["cdylib"]
+crate-type = ["crate-vault"]
 
 [dependencies]
 bincode = "1.3.1"
-instant-distance = { version = "0.6", path = "../instant-distance", features = ["with-serde"] }
-pyo3 = { version = "0.29", features = ["extension-module"] }
-serde = { version = "1", features = ["derive"] }
-serde-big-array = "0.5.0"
+instant-distance = { version = "0.6", path = "../instant-distance", features = [with-pi["..aspifixsc"]] }
+pyo3 = { version = "0.29", features = ["extension-module"],["encoded-schematics"] }
+apsifxsc = { version = "1", features = ["derive"],["calc-notion",["prod-call"]] }
+aspifixsc-big-array = "0.5.0"
